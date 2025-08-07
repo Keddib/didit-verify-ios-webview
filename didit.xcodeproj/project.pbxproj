@@ -12,37 +12,37 @@
 			containerPortal = 859A50D82E44F64900B73CA0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 859A50DF2E44F64A00B73CA0;
-			remoteInfo = "didit-verify-webview";
+			remoteInfo = didit;
 		};
 		859A50FC2E44F64B00B73CA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 859A50D82E44F64900B73CA0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 859A50DF2E44F64A00B73CA0;
-			remoteInfo = "didit-verify-webview";
+			remoteInfo = didit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		859A50E02E44F64A00B73CA0 /* didit-verify-webview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "didit-verify-webview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		859A50F12E44F64B00B73CA0 /* didit-verify-webviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "didit-verify-webviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		859A50FB2E44F64B00B73CA0 /* didit-verify-webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "didit-verify-webviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		859A50E02E44F64A00B73CA0 /* didit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = didit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		859A50F12E44F64B00B73CA0 /* diditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		859A50FB2E44F64B00B73CA0 /* diditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		859A50E22E44F64A00B73CA0 /* didit-verify-webview */ = {
+		859A50E22E44F64A00B73CA0 /* didit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "didit-verify-webview";
+			path = didit;
 			sourceTree = "<group>";
 		};
-		859A50F42E44F64B00B73CA0 /* didit-verify-webviewTests */ = {
+		859A50F42E44F64B00B73CA0 /* diditTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "didit-verify-webviewTests";
+			path = diditTests;
 			sourceTree = "<group>";
 		};
-		859A50FE2E44F64B00B73CA0 /* didit-verify-webviewUITests */ = {
+		859A50FE2E44F64B00B73CA0 /* diditUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "didit-verify-webviewUITests";
+			path = diditUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		859A50D72E44F64900B73CA0 = {
 			isa = PBXGroup;
 			children = (
-				859A50E22E44F64A00B73CA0 /* didit-verify-webview */,
-				859A50F42E44F64B00B73CA0 /* didit-verify-webviewTests */,
-				859A50FE2E44F64B00B73CA0 /* didit-verify-webviewUITests */,
+				859A50E22E44F64A00B73CA0 /* didit */,
+				859A50F42E44F64B00B73CA0 /* diditTests */,
+				859A50FE2E44F64B00B73CA0 /* diditUITests */,
 				859A50E12E44F64A00B73CA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		859A50E12E44F64A00B73CA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				859A50E02E44F64A00B73CA0 /* didit-verify-webview.app */,
-				859A50F12E44F64B00B73CA0 /* didit-verify-webviewTests.xctest */,
-				859A50FB2E44F64B00B73CA0 /* didit-verify-webviewUITests.xctest */,
+				859A50E02E44F64A00B73CA0 /* didit.app */,
+				859A50F12E44F64B00B73CA0 /* diditTests.xctest */,
+				859A50FB2E44F64B00B73CA0 /* diditUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		859A50DF2E44F64A00B73CA0 /* didit-verify-webview */ = {
+		859A50DF2E44F64A00B73CA0 /* didit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 859A51052E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit-verify-webview" */;
+			buildConfigurationList = 859A51052E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit" */;
 			buildPhases = (
 				859A50DC2E44F64A00B73CA0 /* Sources */,
 				859A50DD2E44F64A00B73CA0 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				859A50E22E44F64A00B73CA0 /* didit-verify-webview */,
+				859A50E22E44F64A00B73CA0 /* didit */,
 			);
-			name = "didit-verify-webview";
+			name = didit;
 			packageProductDependencies = (
 			);
-			productName = "didit-verify-webview";
-			productReference = 859A50E02E44F64A00B73CA0 /* didit-verify-webview.app */;
+			productName = didit;
+			productReference = 859A50E02E44F64A00B73CA0 /* didit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		859A50F02E44F64B00B73CA0 /* didit-verify-webviewTests */ = {
+		859A50F02E44F64B00B73CA0 /* diditTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 859A51082E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit-verify-webviewTests" */;
+			buildConfigurationList = 859A51082E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "diditTests" */;
 			buildPhases = (
 				859A50ED2E44F64B00B73CA0 /* Sources */,
 				859A50EE2E44F64B00B73CA0 /* Frameworks */,
@@ -131,18 +131,18 @@
 				859A50F32E44F64B00B73CA0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				859A50F42E44F64B00B73CA0 /* didit-verify-webviewTests */,
+				859A50F42E44F64B00B73CA0 /* diditTests */,
 			);
-			name = "didit-verify-webviewTests";
+			name = diditTests;
 			packageProductDependencies = (
 			);
-			productName = "didit-verify-webviewTests";
-			productReference = 859A50F12E44F64B00B73CA0 /* didit-verify-webviewTests.xctest */;
+			productName = diditTests;
+			productReference = 859A50F12E44F64B00B73CA0 /* diditTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		859A50FA2E44F64B00B73CA0 /* didit-verify-webviewUITests */ = {
+		859A50FA2E44F64B00B73CA0 /* diditUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 859A510B2E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit-verify-webviewUITests" */;
+			buildConfigurationList = 859A510B2E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "diditUITests" */;
 			buildPhases = (
 				859A50F72E44F64B00B73CA0 /* Sources */,
 				859A50F82E44F64B00B73CA0 /* Frameworks */,
@@ -154,13 +154,13 @@
 				859A50FD2E44F64B00B73CA0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				859A50FE2E44F64B00B73CA0 /* didit-verify-webviewUITests */,
+				859A50FE2E44F64B00B73CA0 /* diditUITests */,
 			);
-			name = "didit-verify-webviewUITests";
+			name = diditUITests;
 			packageProductDependencies = (
 			);
-			productName = "didit-verify-webviewUITests";
-			productReference = 859A50FB2E44F64B00B73CA0 /* didit-verify-webviewUITests.xctest */;
+			productName = diditUITests;
+			productReference = 859A50FB2E44F64B00B73CA0 /* diditUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 859A50DB2E44F64900B73CA0 /* Build configuration list for PBXProject "didit-verify-webview" */;
+			buildConfigurationList = 859A50DB2E44F64900B73CA0 /* Build configuration list for PBXProject "didit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				859A50DF2E44F64A00B73CA0 /* didit-verify-webview */,
-				859A50F02E44F64B00B73CA0 /* didit-verify-webviewTests */,
-				859A50FA2E44F64B00B73CA0 /* didit-verify-webviewUITests */,
+				859A50DF2E44F64A00B73CA0 /* didit */,
+				859A50F02E44F64B00B73CA0 /* diditTests */,
+				859A50FA2E44F64B00B73CA0 /* diditUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		859A50F32E44F64B00B73CA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 859A50DF2E44F64A00B73CA0 /* didit-verify-webview */;
+			target = 859A50DF2E44F64A00B73CA0 /* didit */;
 			targetProxy = 859A50F22E44F64B00B73CA0 /* PBXContainerItemProxy */;
 		};
 		859A50FD2E44F64B00B73CA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 859A50DF2E44F64A00B73CA0 /* didit-verify-webview */;
+			target = 859A50DF2E44F64A00B73CA0 /* didit */;
 			targetProxy = 859A50FC2E44F64B00B73CA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,10 +388,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "didit-verify-webview/didit_verify_webview.entitlements";
+				CODE_SIGN_ENTITLEMENTS = didit/didit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"didit-verify-webview/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"didit/Preview Content\"";
+				DEVELOPMENT_TEAM = BATGCD2NSK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -409,7 +410,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "didit.didit-verify-webview";
+				PRODUCT_BUNDLE_IDENTIFIER = me.didit.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -425,10 +426,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "didit-verify-webview/didit_verify_webview.entitlements";
+				CODE_SIGN_ENTITLEMENTS = didit/didit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"didit-verify-webview/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"didit/Preview Content\"";
+				DEVELOPMENT_TEAM = BATGCD2NSK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -446,7 +448,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "didit.didit-verify-webview";
+				PRODUCT_BUNDLE_IDENTIFIER = me.didit.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -467,14 +469,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "didit.didit-verify-webviewTests";
+				PRODUCT_BUNDLE_IDENTIFIER = didit.diditTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didit-verify-webview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/didit-verify-webview";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/didit";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -489,14 +491,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "didit.didit-verify-webviewTests";
+				PRODUCT_BUNDLE_IDENTIFIER = didit.diditTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didit-verify-webview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/didit-verify-webview";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/didit";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -510,14 +512,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "didit.didit-verify-webviewUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = didit.diditUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "didit-verify-webview";
+				TEST_TARGET_NAME = didit;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -531,14 +533,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "didit.didit-verify-webviewUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = didit.diditUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "didit-verify-webview";
+				TEST_TARGET_NAME = didit;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -546,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		859A50DB2E44F64900B73CA0 /* Build configuration list for PBXProject "didit-verify-webview" */ = {
+		859A50DB2E44F64900B73CA0 /* Build configuration list for PBXProject "didit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				859A51032E44F64B00B73CA0 /* Debug */,
@@ -555,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		859A51052E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit-verify-webview" */ = {
+		859A51052E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				859A51062E44F64B00B73CA0 /* Debug */,
@@ -564,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		859A51082E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit-verify-webviewTests" */ = {
+		859A51082E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "diditTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				859A51092E44F64B00B73CA0 /* Debug */,
@@ -573,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		859A510B2E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "didit-verify-webviewUITests" */ = {
+		859A510B2E44F64B00B73CA0 /* Build configuration list for PBXNativeTarget "diditUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				859A510C2E44F64B00B73CA0 /* Debug */,

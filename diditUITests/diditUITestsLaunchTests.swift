@@ -1,13 +1,13 @@
 //
-//  didit_verify_webviewUITestsLaunchTests.swift
-//  didit-verify-webviewUITests
+//  diditUITestsLaunchTests.swift
+//  diditUITests
 //
 //  Created by keddib on 7/8/2025.
 //
 
 import XCTest
 
-final class didit_verify_webviewUITestsLaunchTests: XCTestCase {
+final class diditUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

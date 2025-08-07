@@ -1,6 +1,6 @@
 //
-//  didit_verify_webviewApp.swift
-//  didit-verify-webview
+//  diditApp.swift
+//  didit
 //
 //  Created by keddib on 7/8/2025.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct didit_verify_webviewApp: App {
+struct diditApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

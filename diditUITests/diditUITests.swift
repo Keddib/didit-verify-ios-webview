@@ -1,13 +1,13 @@
 //
-//  didit_verify_webviewUITests.swift
-//  didit-verify-webviewUITests
+//  diditUITests.swift
+//  diditUITests
 //
 //  Created by keddib on 7/8/2025.
 //
 
 import XCTest
 
-final class didit_verify_webviewUITests: XCTestCase {
+final class diditUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
